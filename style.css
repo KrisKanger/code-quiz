@@ -10,10 +10,9 @@ body {
 }
 
 .timer {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-    font-size: 18px;
+    display: flex;
+    justify-content: right;
+    font-size: 36px;
 }
 
 .quiz-name {
@@ -40,7 +39,7 @@ body {
 }
 
 .button:hover {
-    border-color: green;
+    border-color: blue;
 }
 
 .navigation {
